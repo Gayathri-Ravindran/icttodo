@@ -1,0 +1,34 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+}
+
+.todo-item input {
+  margin-right: 10px;
+}
+
+.todo-item button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.todo-item button:hover {
+  background-color: #ff0000;
+}
